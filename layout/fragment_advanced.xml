@@ -1,0 +1,125 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhi.tutorialfinal.Advanced"
+    android:background="#66fd66">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b1"
+                android:text="Dialog Box"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b2"
+                android:text="Adapter Class"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b3"
+                android:text="Auto Complete text view"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b4"
+                android:text="List View"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b5"
+                android:text="Spinner"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b6"
+                android:text="Splash"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b7"
+                android:text="Broadcast Reciever"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b8"
+                android:text="Intent"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b9"
+                android:text="Fragment"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b10"
+                android:text="Sqllite"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b11"
+                android:text="Content Provider"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
+
+

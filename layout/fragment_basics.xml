@@ -1,0 +1,159 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Basics"
+    android:background="#66fd66">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b1"
+                android:text="Button"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b2"
+                android:text="Text View"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b3"
+                android:text="Edit Text"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b4"
+                android:text="Check Box"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b5"
+                android:text="ViewGroup"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b6"
+                android:text="Log Class"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b7"
+                android:text="Dimensions"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b8"
+                android:text="Listeners"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b9"
+                android:text="Margin/Padding"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b10"
+                android:text="Linear Layout"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b11"
+                android:text="Relative Layout"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b12"
+                android:text="Table Layout"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b13"
+                android:text="Grid Layout"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b14"
+                android:text="Frame Layout"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:id="@+id/b15"
+                android:text="Grid View"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_selector"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
